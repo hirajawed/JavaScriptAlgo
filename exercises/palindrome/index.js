@@ -14,7 +14,7 @@ function palindrome(str) {
     //position in the array as (i))
     return char === str[str.length -i - 1];
     //str.length - i is looking at the index by looping at each step
-    // str.length  - 1 is looking to subtract from the v first index which is 0 (5-4 = 1)
+    // str.length  - 1 is looking to subtract from the v first index which is 0 (to the last index which 4)
   });
   }
 module.exports = palindrome;
