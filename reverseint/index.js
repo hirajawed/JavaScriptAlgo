@@ -10,10 +10,9 @@
 
 function reverseInt(n) {
   const reversed = n.toString().split('').reverse().join(''); //turn the number into a string first
-    //then split, reverse, then join
-    return parseInt(reversed) * Math.sign(n); //the "Math.sign" function will give the
-    //negative value to the negative no and positive value to the positive no.
-    //input number if n < 0 we shouldl have a negative numbers. 
+  //then split, reverse, then join
+
+return parseInt(reversed) * Math.sign(n); //the sign will give the negative value to negative and positive value to positive number.
 }
 
 module.exports = reverseInt;
