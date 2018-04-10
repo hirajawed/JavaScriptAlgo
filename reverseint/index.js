@@ -13,7 +13,7 @@ function reverseInt(n) {
     //then split, reverse, then join
     return parseInt(reversed) * Math.sign(n); //the "Math.sign" function will give the
     //negative value to the negative no and positive value to the positive no.
-    //input number if n < 0 we shouldl have a negative numbers.
+    //input number if n < 0 we shouldl have a negative numbers. 
 }
 
 module.exports = reverseInt;
